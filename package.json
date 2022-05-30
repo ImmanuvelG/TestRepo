@@ -1,0 +1,19 @@
+{
+  "name": "cypress-framework-2a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run-dashboard": "cypress run --record --key 34af35fe-d6c7-4755-bda5-c6ba069b2b44",
+    "cy:open": "cypress-open",
+    "cy:run": "cypress run",
+    "cypress_browser" : "npm cypress run --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.5.4",
+    "cypress-image-snapshot": "^4.0.1",
+    "prettier": "^2.6.2"
+  }
+}
